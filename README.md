@@ -12,7 +12,7 @@ pinlfode(led, OUTPUT)
 
 Void Loop{}  {
 digitalWire(led, high);
-Delay(1000);
+Delay(25);
 DigitalWire(led, LOW);
-Delay(1000);
+Delay(25);
 }
